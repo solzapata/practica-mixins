@@ -1,0 +1,25 @@
+@mixin float{
+    transform: translateY(-20px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+
+@mixin position($first:auto, $second:auto, $third:auto, $fourth:auto){
+    position: absolute;
+    top: $first;
+    right: $second;
+    bottom: $third;
+    left: $fourth;
+}
+
+@mixin width($width:null,$max-width:null,$min-width:null){
+    width: $width;
+    max-width: $max-width;
+    min-width: $min-width;
+}
+
+@mixin flex($just:flex-start,$alig:flex-start,$wr:no-wrap,$direc:row){
+    justify-content: $just;
+    align-items: $alig;
+    flex-wrap:$wr;
+    flex-direction:$direc;
+}

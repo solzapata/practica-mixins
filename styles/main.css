@@ -1,0 +1,28 @@
+.box {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  margin: 100px; }
+  .box-first:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); }
+  .box-second {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    bottom: auto;
+    left: auto; }
+  .box-third {
+    width: 100%;
+    max-width: 500px;
+    min-width: 1100px;
+    background-color: lightblue; }
+  .box-fourth {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    background-color: lightcoral; }
+
+/*# sourceMappingURL=main.css.map */

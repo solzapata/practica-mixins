@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    margin: 100px;
+    &-first:hover{
+        @include float;
+    }    
+    &-second{
+        @include position(30px,10px);
+    }
+    &-third{
+        @include width(100%,500px,1100px);
+        background-color:lightblue;
+    }
+    &-fourth{
+        @include flex(center,center,wrap,column);
+        display: flex;
+        background-color: lightcoral;
+    }
+}
